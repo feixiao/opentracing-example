@@ -13,6 +13,8 @@ import (
 func indexHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte(`<a href="/home"> Click here to start a request </a>`))
 }
+
+
 func homeHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Request started"))
 	sp := opentracing.StartSpan("GET /home") // Start a new root span.

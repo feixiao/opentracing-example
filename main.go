@@ -28,6 +28,7 @@ func main() {
 	if len(*lightstepToken) > 0 {
 		tracer = lightstepot.NewTracer(lightstepot.Options{AccessToken: *lightstepToken})
 	} else {
+		// appDash查询界面
 		addr := startAppdashServer(*appdashPort)
 		tracer = appdashot.NewTracer(appdash.NewRemoteCollector(addr))
 	}
@@ -36,8 +37,8 @@ func main() {
 
 	addr := fmt.Sprintf(":%d", *port)
 	mux := http.NewServeMux()
-	mux.HandleFunc("/", indexHandler)
-	mux.HandleFunc("/home", homeHandler)
+	mux.HandleFunc("/", indexHandler)			// 返回发送请求的页面
+	mux.HandleFunc("/home", homeHandler)		// 请求home页面
 	mux.HandleFunc("/async", serviceHandler)
 	mux.HandleFunc("/service", serviceHandler)
 	mux.HandleFunc("/db", dbHandler)
