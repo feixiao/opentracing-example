@@ -1,0 +1,191 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "gN5ZhO1jwguyrCYqQmCWY/zR+Tk=",
+			"path": "github.com/gogo/protobuf/io",
+			"revision": "d5bc08a2c4c572e9bcff820aa125fe38ac3a3a42",
+			"revisionTime": "2018-02-23T15:10:32Z"
+		},
+		{
+			"checksumSHA1": "nTHr8B2CPLP8kcJRtBEXluFvzUY=",
+			"path": "github.com/gogo/protobuf/proto",
+			"revision": "d5bc08a2c4c572e9bcff820aa125fe38ac3a3a42",
+			"revisionTime": "2018-02-23T15:10:32Z"
+		},
+		{
+			"path": "github.com/golang/protobuf/proto",
+			"revision": ""
+		},
+		{
+			"path": "github.com/golang/protobuf/ptypes/timestamp",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "g/V4qrXjUGG9B+e3hB+4NAYJ5Gs=",
+			"path": "github.com/gorilla/context",
+			"revision": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42",
+			"revisionTime": "2016-08-17T18:46:32Z"
+		},
+		{
+			"checksumSHA1": "Ne2HHjBVT8tegOp3l3ataHYmq9M=",
+			"path": "github.com/gorilla/mux",
+			"revision": "07ba1fd60e210dc5cc6f86ec25dc9ecc7c95c295",
+			"revisionTime": "2018-02-26T05:11:51Z"
+		},
+		{
+			"checksumSHA1": "b7a/diMZ09jEr95jmzotCkUqd5k=",
+			"path": "github.com/lightstep/lightstep-tracer-go",
+			"revision": "f9f54d495e5c6752b58fae6b66a5cb1107e17b29",
+			"revisionTime": "2018-01-17T07:00:15Z",
+			"version": "v0.15.2",
+			"versionExact": "v0.15.2"
+		},
+		{
+			"checksumSHA1": "2KJYaaDrRleXD4dHqyCTY5/o6ho=",
+			"path": "github.com/lightstep/lightstep-tracer-go/collectorpb",
+			"revision": "f9f54d495e5c6752b58fae6b66a5cb1107e17b29",
+			"version": "v0.15.2"
+		},
+		{
+			"checksumSHA1": "9RuzgfVe9wcAJ5tDBVE0tzcweJw=",
+			"path": "github.com/lightstep/lightstep-tracer-go/lightstep_thrift",
+			"revision": "f9f54d495e5c6752b58fae6b66a5cb1107e17b29",
+			"version": "v0.15.2"
+		},
+		{
+			"checksumSHA1": "Cn3cEu3ASy/2ErGKpODe4N52Q/I=",
+			"path": "github.com/lightstep/lightstep-tracer-go/lightsteppb",
+			"revision": "f9f54d495e5c6752b58fae6b66a5cb1107e17b29",
+			"version": "v0.15.2"
+		},
+		{
+			"checksumSHA1": "szbcbSOesQlDls9McfHw3k+Ivr0=",
+			"path": "github.com/lightstep/lightstep-tracer-go/thrift_0_9_2/lib/go/thrift",
+			"revision": "f9f54d495e5c6752b58fae6b66a5cb1107e17b29",
+			"version": "v0.15.2"
+		},
+		{
+			"checksumSHA1": "HxZk1VWHKzU4xdyhe0Jvu7UOwjM=",
+			"path": "github.com/opentracing/basictracer-go",
+			"revision": "4f57fa6c2e72e6f3434484d30d8813bf89f657ae",
+			"revisionTime": "2018-02-21T00:46:25Z"
+		},
+		{
+			"checksumSHA1": "bvLGShW2gTFyRs7kHShIczVuR1c=",
+			"path": "github.com/opentracing/basictracer-go/wire",
+			"revision": "4f57fa6c2e72e6f3434484d30d8813bf89f657ae",
+			"revisionTime": "2018-02-21T00:46:25Z"
+		},
+		{
+			"checksumSHA1": "omplhuY7lM3oT4BFfoWh4uegLS0=",
+			"path": "github.com/opentracing/opentracing-go",
+			"revision": "3999fca714c888484b78cb78d68cd49afc9eca7d",
+			"revisionTime": "2018-02-12T00:34:21Z"
+		},
+		{
+			"checksumSHA1": "uhDxBvLEqRAMZKgpTZ8MFuLIIM8=",
+			"path": "github.com/opentracing/opentracing-go/ext",
+			"revision": "3999fca714c888484b78cb78d68cd49afc9eca7d",
+			"revisionTime": "2018-02-12T00:34:21Z"
+		},
+		{
+			"checksumSHA1": "tnkdNJbJxNKuPZMWapP1xhKIIGw=",
+			"path": "github.com/opentracing/opentracing-go/log",
+			"revision": "3999fca714c888484b78cb78d68cd49afc9eca7d",
+			"revisionTime": "2018-02-12T00:34:21Z"
+		},
+		{
+			"checksumSHA1": "fhngc51BJ8gGzM5b8BpSuWjCLao=",
+			"path": "github.com/shurcooL/httpfs/vfsutil",
+			"revision": "809beceb23714880abc4a382a00c05f89d13b1cc",
+			"revisionTime": "2017-11-19T17:43:26Z"
+		},
+		{
+			"checksumSHA1": "+aF3fmQLfp8+ubn1dyKMJ1rYPho=",
+			"path": "github.com/shurcooL/vfsgen",
+			"revision": "ffb13db8def02f545acc58bd288ec6057c2bbfb9",
+			"revisionTime": "2017-10-13T03:40:24Z"
+		},
+		{
+			"checksumSHA1": "U82pm9Gul1bWe71WNzi6CM7qqyk=",
+			"path": "github.com/sourcegraph/appdash",
+			"revision": "2cc67fd647551af94593ecaaa89fe4e5b2940a3e",
+			"revisionTime": "2018-01-10T18:02:08Z"
+		},
+		{
+			"path": "github.com/sourcegraph/appdash/opentracing",
+			"revision": ""
+		},
+		{
+			"path": "github.com/sourcegraph/appdash/traceapp",
+			"revision": ""
+		},
+		{
+			"path": "golang.org/x/net/context",
+			"revision": ""
+		},
+		{
+			"path": "golang.org/x/net/http2",
+			"revision": ""
+		},
+		{
+			"path": "google.golang.org/grpc",
+			"revision": ""
+		},
+		{
+			"path": "google.golang.org/grpc/credentials",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "3zeEInJd/r8ZmBzFwbz8jqqqkv4=",
+			"path": "sourcegraph.com/sourcegraph/appdash",
+			"revision": "2cc67fd647551af94593ecaaa89fe4e5b2940a3e",
+			"revisionTime": "2018-01-10T18:02:08Z"
+		},
+		{
+			"checksumSHA1": "OGBlevKWzTQY7dC+F3OmtS0Th4k=",
+			"path": "sourcegraph.com/sourcegraph/appdash-data",
+			"revision": "73f23eafcf67cad684fba328dd545a116ac273ff",
+			"revisionTime": "2015-10-05T22:14:46Z"
+		},
+		{
+			"checksumSHA1": "mI5suR6iTjUOuzwD4pI8AYSMmd4=",
+			"path": "sourcegraph.com/sourcegraph/appdash/httptrace",
+			"revision": "2cc67fd647551af94593ecaaa89fe4e5b2940a3e",
+			"revisionTime": "2018-01-10T18:02:08Z"
+		},
+		{
+			"checksumSHA1": "JYGXK0rF/LoIg8jGrOlaO9OqPbI=",
+			"path": "sourcegraph.com/sourcegraph/appdash/internal/wire",
+			"revision": "2cc67fd647551af94593ecaaa89fe4e5b2940a3e",
+			"revisionTime": "2018-01-10T18:02:08Z"
+		},
+		{
+			"checksumSHA1": "uoXbuVVf3swmwCpEQKLZGGsnP8s=",
+			"path": "sourcegraph.com/sourcegraph/appdash/opentracing",
+			"revision": "2cc67fd647551af94593ecaaa89fe4e5b2940a3e",
+			"revisionTime": "2018-01-10T18:02:08Z"
+		},
+		{
+			"checksumSHA1": "DbYAyk4lKSOp6kv7cyvHLm/OoLU=",
+			"path": "sourcegraph.com/sourcegraph/appdash/sqltrace",
+			"revision": "2cc67fd647551af94593ecaaa89fe4e5b2940a3e",
+			"revisionTime": "2018-01-10T18:02:08Z"
+		},
+		{
+			"checksumSHA1": "dmNyAaO+dtOSC7SGt8KSTfq3dsQ=",
+			"path": "sourcegraph.com/sourcegraph/appdash/traceapp",
+			"revision": "2cc67fd647551af94593ecaaa89fe4e5b2940a3e",
+			"revisionTime": "2018-01-10T18:02:08Z"
+		},
+		{
+			"checksumSHA1": "dHwcL1aZyP4ad+dYmHjtQZaz9MA=",
+			"path": "sourcegraph.com/sourcegraph/appdash/traceapp/tmpl",
+			"revision": "2cc67fd647551af94593ecaaa89fe4e5b2940a3e",
+			"revisionTime": "2018-01-10T18:02:08Z"
+		}
+	],
+	"rootPath": "github.com/feixiao/opentracing-example"
+}
